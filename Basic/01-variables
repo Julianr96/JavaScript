@@ -1,0 +1,24 @@
+//var: Manera original pero genera ciertos probblemas. 
+// Se elva a lo mas alto del fichero y antes de definirla ya uno puede acceder a ella
+
+var helloworld = "Hola, JavaScript!"
+console.log(helloworld)
+
+helloworld = "Hola de nuevo, JavaScript!"
+console.log(helloworld)
+
+//let: Vive dentro de bloques y luego muere
+
+let helloworld2 = "Hola, JavaScript!"
+console.log(helloworld2)
+
+helloworld2 = "Hola de nuevo, JavaScript!"
+console.log(helloworld2)
+
+//const:
+
+const helloworld3= "Hola, JavaScript!"
+console.log(helloworld3)
+
+//helloworld3 = "Hola de nuevo, JavaScript!"
+console.log(helloworld3)
