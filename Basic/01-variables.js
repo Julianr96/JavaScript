@@ -1,6 +1,5 @@
 //var: Manera original pero genera ciertos probblemas. 
 // Se elva a lo mas alto del fichero y antes de definirla ya uno puede acceder a ella
-
 var helloworld = "Hola, JavaScript!"
 console.log(helloworld)
 
