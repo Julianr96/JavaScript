@@ -1,6 +1,6 @@
 //Operadores: 
 
-//eradores aritmeticos:
+//operadores aritmeticos:
 let a = 3
 let b = 7
 
