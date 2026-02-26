@@ -16,8 +16,7 @@ age++
 
 if(age == 37){
     console.log("La edad es 37")
-}
-else if(age < 18){
+}else if(age < 18){
     console.log("Es menor de edad")
 }else{
     console.log("La edad no es 37 ni es menor de edad")
