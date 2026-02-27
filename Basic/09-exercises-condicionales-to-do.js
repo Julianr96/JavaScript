@@ -105,6 +105,94 @@ console.log("---------------")
 console.log("Ahora con switch")
 console.log("---------------")
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
+/*console.log("Punto 8: ")
 
+let idioma = 1
+let mensaje1 = null
+
+switch(idioma){
+    case 1:
+        mensaje1 = "Hello"
+        break
+    case 2:
+        mensaje1 = "Hola"
+        break
+    case 3:
+        mensaje1 = "Salve"
+        break
+    default
+}
+console.log(mensaje1)
+*/
+console.log("---------------")
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
+console.log("Punto 9: ")
+
+let estacion = null
+//mes === 1 || mes === 3 || mes === 5 || mes ===7 || mes === 8 || mes ===10 || mes === 12)
+switch(mes){
+    case 1: diasSwitch = 31
+    break
+    case 2: diasSwitch = 28
+    break
+    case 3: diasSwitch = 31
+    break
+    case 4: diasSwitch = 30
+    break
+    case 5: diasSwitch = 31
+    break
+    case 6: diasSwitch = 30
+    break
+    case 7: diasSwitch = 31
+    break
+    case 8: diasSwitch = 31
+    break
+    case 9: diasSwitch = 30
+    break
+    case 10: diasSwitch = 31
+    break
+    case 11: diasSwitch = 30
+    break
+    case 12: diasSwitch = 31
+    break
+    default: diasSwitch = "Mes invalido, intente nuevamente."
+}
+
+console.log(`La estacion del ${mes} es ${estacion}`)
+
+console.log("---------------")
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+console.log("Punto 10: ")
+
+let diasSwitch = null
+
+switch(mes){
+    case 1: estacion = "verano"
+    break
+    case 2: estacion = "verano"
+    break
+    case 3: estacion = "otoño"
+    break
+    case 4: estacion = "otoño"
+    break
+    case 5: estacion = "otoño"
+    break
+    case 6: estacion = "invierno"
+    break
+    case 7: estacion = "invierno"
+    break
+    case 8: estacion = "invierno"
+    break
+    case 9: estacion = "primavera"
+    break
+    case 10: estacion = "primavera"
+    break
+    case 11: estacion = "primavera"
+    break
+    case 12: estacion = "verano"
+    break
+    default:  estacion = "Error"
+}
+
+console.log("---------------")
+
