@@ -87,6 +87,9 @@ console.log("-----------------")
 //slice: 
 
 myArray = ["Julian", "alias_Iuli","Rosemberg", 29, true]
+
+console.log("slice")
+
 let myNewArray = myArray.slice(1, 3) // aca lo que le damos es el slice, la tajada para que desde el indice hasta cual, pero sin contar el ultimo
 
 console.log(myArray)
@@ -94,6 +97,9 @@ console.log(myNewArray)
 
 console.log("-----------------")
 //Splice: Elimina los elementos entre estos dos valores que le damos de referencia
+
+console.log("splice")
+
 myArray.splice(1, 3) 
 
 console.log(myArray)
